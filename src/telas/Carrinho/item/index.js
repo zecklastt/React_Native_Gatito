@@ -18,8 +18,6 @@ export default function Item({ nome, preco, descricao, quantidade: quantidadeIni
         setTotal(novaQuantidade * preco);
     }
 
-
-
     return <>
         <View style={estilos.informacao}>
             <Text style={estilos.nome}>{nome}</Text>
